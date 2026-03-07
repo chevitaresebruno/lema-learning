@@ -77,22 +77,27 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'LEMA',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'LEMA-Logo',
+        src: 'img/logo-lema.png',
       },
       items: [
+        // Links diretos para as páginas principais de cada seção
+        { to: '/docs/laboratorio/sobre', label: 'Laboratório', position: 'left' },
+        { to: '/docs/pessoas/docentes', label: 'Pessoas', position: 'left' },
+        { to: '/docs/projetos', label: 'Projetos', position: 'left' },
+        { to: '/docs/aprender', label: 'Aprender', position: 'left' },
+        { to: '/docs/parceiros', label: 'Parceiros', position: 'left' },
+        // Links externos (redes sociais)
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          href: 'https://instagram.com/lema.ifes',
+          label: 'Instagram',
+          position: 'right',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://linkedin.com/company/lema-ifes',
+          label: 'LinkedIn',
           position: 'right',
         },
       ],
