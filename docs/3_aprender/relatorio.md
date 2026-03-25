@@ -1,8 +1,14 @@
+---
+title: Relatório de Aprendizado
+sidebar_position: 2
+---
+
 ## 1. Introdução
 
 Este relatório documenta o aprendizado adquirido durante o estudo introdutório de JavaScript, abrangendo desde a sintaxe básica da linguagem, passando por funções, classes e manipulação do DOM, até a documentação do código com JSDocs. O objetivo foi construir uma base sólida para futuros desenvolvimentos web interativos.
 
 ---
+
 ## 2. Sintaxe básica do JavaScript
 A sintaxe básica do JavaScript define as regras para escrever programas. É o primeiro passo para entender como a linguagem funciona, incluindo variáveis, tipos de dados, operadores e estruturas de controle. Dominar essa base é essencial, pois todos os conceitos mais avançados dependem dela.
 
@@ -37,7 +43,7 @@ function testarEscopo(){
 testarEscopo();
 ```
 ##### 📊 Resultados Obtidos
-![Resultados 2.1.1](Images/resultadoSintaxeBasica2.1.1.png)
+![Resultados 2.1.1](./Images/resultadoSintaxeBasica2.1.1.png)
 
 ---
 ### 2.2 Estruturas de controle
@@ -61,7 +67,7 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 ##### 📊 Resultados Obtidos
-![Resultados 2.1.2](Images/resultadoSintaxeBasica2.1.2.png)
+<!-- ![Resultados 2.1.2](./Images/resultadoSintaxeBasica2.1.2.png) -->
 
 ---
 ## 3. Funções, Classes e Interface DOM
@@ -82,7 +88,7 @@ function saudacao(nome){
 console.log(saudacao("Gustavo"));
 ```
 ##### 📊 Resultados Obtidos
-![Resultados 3.1.1](Images/resultadoFuncoes3.1.1.png)
+![Resultados 3.1.1](./Images/resultadoFuncoes3.1.1.png)
 
 ---
 #### 3.1.2 Função Anônima
@@ -99,7 +105,7 @@ const b = 7;
 console.log(`(${a} + ${b}) = ${soma(a, b)}`); //Template String, ferramenta melhor para mexer com formatação de texto
 ```
 ##### 📊 Resultados Obtidos
-![Resultados 3.1.2](Images/resultadoFuncoes3.1.2.png)
+![Resultados 3.1.2](./Images/resultadoFuncoes3.1.2.png)
 
 ---
 #### 3.1.3 Arrow Function
@@ -114,7 +120,7 @@ const b = 5;
 console.log(`(${a} * ${b}) = ${multiplicacao(a, b)}`);
 ```
 ##### 📊 Resultados Obtidos
-![Resultados 3.1.3](Images/resultadoFuncoes3.1.3.png)
+![Resultados 3.1.3](./Images/resultadoFuncoes3.1.3.png)
 
 ---
 ### 3.2 Parâmetros e retorno
@@ -135,7 +141,7 @@ const resultado = mostraMensagem("Esta é uma mensagem de teste.");
 console.log(resultado); //undefined, pois a função não tem return
 ```
 ##### 📊 Resultados Obtidos
-![Resultados 3.1.4](Images/resultadoFuncoes3.1.4.png)
+![Resultados 3.1.4](./Images/resultadoFuncoes3.1.4.png)
 
 ---
 ### 3.3 Classes
@@ -168,7 +174,7 @@ const pessoa1 = new Pessoa("Gustavo", 21); //Criando uma nova instância da clas
 console.log(pessoa1.apresentar()); //Chamando o método apresentar da instância pessoa1, que irá exibir a mensagem de apresentação no console
 ```
 ##### 📊 Resultados Obtidos
-![Resultados 3.2.1](Images/resultadoClasses3.2.1.png)
+![Resultados 3.2.1](./Images/resultadoClasses3.2.1.png)
 
 ---
 ### 3.4 Classe com Manipulação do DOM
@@ -250,15 +256,15 @@ function listarProdutos() {
 }
 ```
 ##### Tela antes de clicar nos botões
-![Resultados DOM Inicial](Images/resultadoDOMinicial.png)
+![Resultados DOM Inicial](./Images/resultadoDOMinicial.png)
 
 ---
 ##### Tela após clicar em "Clique aqui"
-![Resultados DOM Clique aqui](Images/resultadoDOMcliqueAqui.png)
+![Resultados DOM Clique aqui](./Images/resultadoDOMcliqueAqui.png)
 
 ---
 ##### Tela após clicar em "Mostrar Produtos"
-![Resultados DOM Mostrar Produtos](Images/resultadoDOMprodutos.png)
+<!-- ![Resultados DOM Mostrar Produtos](./Images/resultadoDOMmostrarProdutos.png) -->
 
 ---
 ## 4. Documentação com JSDoc
@@ -313,11 +319,11 @@ class Produto {
 - **Clareza:** Outros desenvolvedores entendem o código sem precisar ler a implementação do mesmo.
 - **Manutenibilidade:** Facilita atualizações futuras no código.
 #### 4.3.1 Documentação da Classe `Produto`
-![[documentacaoProduto.png]]
+<!-- ![Documentação da Classe `Produto`](./Images/documentacaoClasseProduto.png) -->
 #### 4.3.2 Documentação do `Construtor` da Classe `Produto`
-![[documentacaoConstrutorProduto.png]]
+<!-- ![Documentação do `Construtor` da Classe `Produto`](./Images/documentacaoConstrutorProduto.png) -->
 #### 4.3.3 Documentação do método `descricao()` da Classe `Produto`
-![[documentacaoMetodoProduto.png]]
+<!-- ![Documentação do método `descricao()` da Classe `Produto`](./Images/documentacaoMetodoDescricaoProduto.png) -->
 
 ## 5. Requisições HTTP
 
