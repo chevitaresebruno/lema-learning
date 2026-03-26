@@ -67,7 +67,7 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 ##### 📊 Resultados Obtidos
-<!-- ![Resultados 2.1.2](./Images/resultadoSintaxeBasica2.1.2.png) -->
+![Resultados 2.1.2](./Images/resultadosSintaxeBasica2.1.2.png)
 
 ---
 ## 3. Funções, Classes e Interface DOM
@@ -321,7 +321,7 @@ class Produto {
 #### 4.3.1 Documentação da Classe `Produto`
 <!-- ![Documentação da Classe `Produto`](./Images/documentacaoClasseProduto.png) -->
 #### 4.3.2 Documentação do `Construtor` da Classe `Produto`
-<!-- ![Documentação do `Construtor` da Classe `Produto`](./Images/documentacaoConstrutorProduto.png) -->
+![Documentação do `Construtor` da Classe `Produto`](./Images/documentacaoConstrutorProduto.png)
 #### 4.3.3 Documentação do método `descricao()` da Classe `Produto`
 <!-- ![Documentação do método `descricao()` da Classe `Produto`](./Images/documentacaoMetodoDescricaoProduto.png) -->
 

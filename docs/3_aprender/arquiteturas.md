@@ -122,11 +122,12 @@ Essa abordagem se alinha às boas práticas de engenharia de software, sendo esp
 
 ---
 
+
 ## Referências
 
 - MARTIN, Robert C. *Clean Architecture: A Craftsman's Guide to Software Structure and Design*. Prentice Hall, 2017.
 
-- FOWLER, Martin. *Microservices*. Disponível em: `<https://martinfowler.com/microservices/>`. Acesso em: 25 mar. 2026.
+- FOWLER, Martin. *Microservices*. Disponível em: &lt;[https://martinfowler.com/microservices/](https://martinfowler.com/microservices/)&gt;. Acesso em: 25 mar. 2026.
 
 - REDUX. *Redux Documentation*. Disponível em: `<https://redux.js.org/>`. Acesso em: 25 mar. 2026.
 
